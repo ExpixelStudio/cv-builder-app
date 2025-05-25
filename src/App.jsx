@@ -1,11 +1,11 @@
-import { useState } from 'react'
-/* import './App.css' */
+/* import { useState } from 'react' */
+import './App.css'
 
 function App() {
 
   return (
     <>
-      <p>Test</p>
+      <p className="text-3xl font-bold underline">Test</p>
     </>
   )
 }
