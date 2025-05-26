@@ -1,8 +1,8 @@
 export default function GeneralInfo(/* {name, email, phone, address} */) {
   return (
-    <div className="bg-gray-100 inline-flex items-center justify-center p-6 w-fit">
+    <div className="bg-gray-100 inline-flex items-center justify-center p-6 w-full">
       <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-2xl">
-        <h2 className="text-2xl font-semibold mb-6 text-gray-800 text-center">Contact Form</h2>
+        <h2 className="text-2xl font-semibold mb-6 text-gray-800 text-center">Personal Information</h2>
         <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Full Name */}
           <div className="col-span-1 md:col-span-2">
