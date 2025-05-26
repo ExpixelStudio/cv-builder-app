@@ -1,12 +1,12 @@
 /* import { useState } from 'react' */
 import './App.css'
+import MainPreview from './components/MainPreview'
 
 function App() {
 
   return (
-    <>
-      <p className="text-3xl font-bold underline">Test</p>
-    </>
+      <MainPreview />
+  
   )
 }
 
