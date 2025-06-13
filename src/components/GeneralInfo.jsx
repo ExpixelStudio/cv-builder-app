@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function GeneralInfo({formData, setFormData}) {
+export default function GeneralInfo({formData, setFormData, localStorage}) {
 
   
 
@@ -15,10 +15,6 @@ export default function GeneralInfo({formData, setFormData}) {
     e.preventDefault();
     localStorage.setItem('generalInfo', JSON.stringify (formData))
     console.log(formData);
-  }
-
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
   }
 
 
