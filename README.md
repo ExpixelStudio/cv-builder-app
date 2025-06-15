@@ -1,4 +1,5 @@
 npm install react-icons --save
+uuid - npm install uuid
 tailwind css
 
 # React + Vite
